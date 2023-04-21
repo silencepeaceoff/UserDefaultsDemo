@@ -12,6 +12,7 @@
 		3551EFFF29F3016200B82D15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3551EFFE29F3016200B82D15 /* ViewController.swift */; };
 		3551F00429F3016300B82D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3551F00329F3016300B82D15 /* Assets.xcassets */; };
 		3551F00729F3016300B82D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3551F00529F3016300B82D15 /* LaunchScreen.storyboard */; };
+		3551F01129F316BE00B82D15 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3551F01029F316BE00B82D15 /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3551F00329F3016300B82D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3551F00629F3016300B82D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3551F00829F3016300B82D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3551F01029F316BE00B82D15 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3551F00F29F301BA00B82D15 /* Application */,
 				3551EFFE29F3016200B82D15 /* ViewController.swift */,
+				3551F01029F316BE00B82D15 /* StorageManager.swift */,
 				3551F00E29F301A100B82D15 /* SupportingFiles */,
 			);
 			path = UserDefaultsDemo;
@@ -153,6 +156,7 @@
 				3551EFFF29F3016200B82D15 /* ViewController.swift in Sources */,
 				3551EFFB29F3016200B82D15 /* AppDelegate.swift in Sources */,
 				3551EFFD29F3016200B82D15 /* SceneDelegate.swift in Sources */,
+				3551F01129F316BE00B82D15 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
